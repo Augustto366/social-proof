@@ -12,29 +12,57 @@
     src: url(../font/LeagueSpartan-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'bold3';
+    src: url(../font/LeagueSpartan-Bold.ttf);
+}
+
 body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../images/bg-pattern-bottom-desktop.svg) no-repeat top;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+    height: 100%;
 }
 
 .satisfacao {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 267px;
     width: 100%;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .satisfacao > article > h1 {
-    font-size: 3em;
-    width: 300px;
+    font-family: bold3;
+    font-size: 3.2em;
+    line-height: 43px;
+    width: 327px;
     color: hsl(300, 43%, 22%)
 }
 
 .satisfacao > article > p {
     font-size: 15px;
+    line-height: 20px;
     width: 350px;
     margin-top: 15px;
     color: hsl(303, 10%, 53%);
@@ -46,12 +74,12 @@ body, html {
     gap: 10px;
 }
 
-.avaliacao > .star {
+.avaliacao > .star1 {
     display: flex;
-    justify-content: flex-end;
-    padding: 10px;
+    justify-content: space-around;
+    padding: 15px;
     border-radius: 5px;
-    background: url(../images/icon-star.svg)  left;
+    background: url(../images/icon-star.svg) no-repeat left 30px center;
     background-color: hsl(303, 10%, 53%);
     width: 400px;
 }
@@ -63,6 +91,7 @@ body, html {
 .comentario > .profile {
     display: flex;
     flex-direction: row;
+    gap: 30px;
 }
 
 .profile > .perfil1 {
@@ -70,12 +99,12 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    gap: 25px;
     background: hsl(300, 43%, 22%);
     padding: 20px;
     border-radius: 6px;
-    width: 400px;
-    height: 200px;
+    width: 320px;
+    height: 210px;
 }
 
 .perfil1 > p {
@@ -85,15 +114,17 @@ body, html {
     width: 260px;
 }
 
-.organi {
+.organi, .organi2, .organi3 {
     display: flex;
+    padding-left: 15px;
     align-self: flex-start;
-    gap: 15px;
+    gap: 20px;
 }
 
-.gerenciador1 {
+.gerenciador1, .gerenciador2, .gerenciador3 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 5px;
 }
 
@@ -110,6 +141,84 @@ body, html {
 }
 
 .gerenciador1 > h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+}
+
+.perfil2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 6px;
+    width: 320px;
+    height: 210px;
+    margin-top: 12px;
+}
+
+.perfil2 > p {
+    font-size: 15px;
+    line-height: 20px;
+    color: hsl(0, 0%, 100%);
+    width: 250px;
+}
+
+.organi2 > img {
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.gerenciador2 > h1 {
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.gerenciador2 > h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+}
+
+.perfil3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 6px;
+    width: 320px;
+    height: 210px;
+    margin-top: 24px;
+}
+
+.perfil3 > p {
+    font-size: 15px;
+    line-height: 20px;
+    color: hsl(0, 0%, 100%);
+    width: 260px;
+}
+
+.organi3 > img {
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.gerenciador3 > h1 {
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.gerenciador3 > h2 {
     font-size: 15px;
     font-weight: 400;
     color: hsl(333, 80%, 67%);
