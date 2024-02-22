@@ -79,7 +79,27 @@ article {
     justify-content: space-around;
     padding: 15px;
     border-radius: 5px;
-    background: url(../images/icon-star.svg) no-repeat left 30px center;
+    background: url(../images/icon-star.svg) repeat-x left 30px center;
+    background-color: hsl(303, 10%, 53%);
+    width: 400px;
+}
+
+.star2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 5px;
+    background: url(../images/icon-star.svg) repeat-x left 30px center;
+    background-color: hsl(303, 10%, 53%);
+    width: 400px;
+}
+
+.star3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 5px;
+    background: url(../images/icon-star.svg) repeat-x left 30px center;
     background-color: hsl(303, 10%, 53%);
     width: 400px;
 }
