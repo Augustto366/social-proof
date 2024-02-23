@@ -39,7 +39,6 @@ main {
 
 .satisfacao {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 267px;
@@ -71,37 +70,32 @@ article {
 .avaliacao {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+}
+
+.avaliacao > .star1, .star2, .star3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    width: 400px;
+    margin-left: -70px;
+}
+
+.staricon1 {
+    display: flex;
     gap: 10px;
 }
 
-.avaliacao > .star1 {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    border-radius: 5px;
-    background: url(../images/icon-star.svg) repeat-x left 30px center;
-    background-color: hsl(303, 10%, 53%);
-    width: 400px;
-}
-
 .star2 {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    border-radius: 5px;
-    background: url(../images/icon-star.svg) repeat-x left 30px center;
-    background-color: hsl(303, 10%, 53%);
-    width: 400px;
+    margin-left: -35px;
 }
 
 .star3 {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    border-radius: 5px;
-    background: url(../images/icon-star.svg) repeat-x left 30px center;
-    background-color: hsl(303, 10%, 53%);
-    width: 400px;
+    margin-left: 0px;
 }
 
 .comentario {
@@ -114,7 +108,7 @@ article {
     gap: 30px;
 }
 
-.profile > .perfil1 {
+.profile > .perfil1, .perfil2, .perfil3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,16 +161,6 @@ article {
 }
 
 .perfil2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    background: hsl(300, 43%, 22%);
-    padding: 20px;
-    border-radius: 6px;
-    width: 320px;
-    height: 210px;
     margin-top: 12px;
 }
 
@@ -206,16 +190,6 @@ article {
 }
 
 .perfil3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    background: hsl(300, 43%, 22%);
-    padding: 20px;
-    border-radius: 6px;
-    width: 320px;
-    height: 210px;
     margin-top: 24px;
 }
 

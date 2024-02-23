@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 200px) and (max-width: 450px){
+
+    body, html {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 395px 0px 395px 0px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .satisfacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .satisfacao > article > h1 {
+        font-family: bold3;
+        text-align: center;
+        font-size: 2.3em;
+        line-height: 30px;
+        width: 300px;
+        color: hsl(300, 43%, 22%)
+    }
+
+    .satisfacao > article > p {
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+        width: 275px;
+        color: hsl(303, 10%, 53%);
+    }
+
+    .avaliacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .avaliacao > .star1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        align-items: center;
+        width: 90%;
+        height: 80px;
+        border-radius: 5px;
+        background-color: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        font-weight: bold;
+        margin-left: 0px;
+    }
+
+    .avaliacao > .star2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        align-items: center;
+        width: 90%;
+        height: 80px;
+        border-radius: 5px;
+        background-color: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        font-weight: bold;
+        margin-left: 0px;
+    }
+
+    .avaliacao > .star3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        align-items: center;
+        width: 90%;
+        height: 80px;
+        border-radius: 5px;
+        background-color: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        font-weight: bold;
+        margin-left: 0px;
+    }
+
+    .comentario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comentario > .profile {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profile > .perfil1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        background: hsl(300, 43%, 22%);
+        padding: 30px;
+        border-radius: 6px;
+        width: 320px;
+        height: 250px;
+    }
+
+    .perfil1 > p {
+        font-size: 15px;
+        line-height: 20px;
+        color: hsl(0, 0%, 100%);
+        width: 230px;
+    }
+
+    .perfil2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        background: hsl(300, 43%, 22%);
+        padding: 30px;
+        border-radius: 6px;
+        width: 320px;
+        height: 250px;
+        margin-top: 0px;
+    }
+
+    .perfil2 > p {
+        font-size: 15px;
+        line-height: 20px;
+        color: hsl(0, 0%, 100%);
+        width: 240px;
+    }
+
+    .perfil3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        background: hsl(300, 43%, 22%);
+        padding: 30px;
+        border-radius: 6px;
+        width: 320px;
+        height: 250px;
+        margin-top: 0px;
+    }
+
+    .perfil3 > p {
+        font-size: 15px;
+        line-height: 20px;
+        color: hsl(0, 0%, 100%);
+        width: 240px;
+    }
+    
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) and (orientation: landscape) {
+
+    body, html {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 560px 0px 540px 0px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .satisfacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .satisfacao > article > h1 {
+        font-family: bold3;
+        text-align: center;
+        font-size: 2.3em;
+        line-height: 30px;
+        width: 300px;
+        color: hsl(300, 43%, 22%)
+    }
+
+    .satisfacao > article > p {
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+        width: 275px;
+        color: hsl(303, 10%, 53%);
+    }
+
+    .avaliacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .avaliacao > .star1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        align-items: center;
+        width: 50%;
+        height: 80px;
+        border-radius: 5px;
+        background-color: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        font-weight: bold;
+        margin-left: 0px;
+    }
+
+    .avaliacao > .star2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        align-items: center;
+        width: 50%;
+        height: 80px;
+        border-radius: 5px;
+        background-color: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        font-weight: bold;
+        margin-left: 0px;
+    }
+
+    .avaliacao > .star3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        align-items: center;
+        width: 50%;
+        height: 80px;
+        border-radius: 5px;
+        background-color: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        font-weight: bold;
+        margin-left: 0px;
+    }
+
+    .comentario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comentario > .profile {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profile > .perfil1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        background: hsl(300, 43%, 22%);
+        padding: 30px;
+        border-radius: 6px;
+        width: 320px;
+        height: 250px;
+    }
+
+    .perfil1 > p {
+        font-size: 15px;
+        line-height: 20px;
+        color: hsl(0, 0%, 100%);
+        width: 230px;
+    }
+
+    .perfil2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        background: hsl(300, 43%, 22%);
+        padding: 30px;
+        border-radius: 6px;
+        width: 320px;
+        height: 250px;
+        margin-top: 0px;
+    }
+
+    .perfil2 > p {
+        font-size: 15px;
+        line-height: 20px;
+        color: hsl(0, 0%, 100%);
+        width: 240px;
+    }
+
+    .perfil3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        background: hsl(300, 43%, 22%);
+        padding: 30px;
+        border-radius: 6px;
+        width: 320px;
+        height: 250px;
+        margin-top: 0px;
+    }
+
+    .perfil3 > p {
+        font-size: 15px;
+        line-height: 20px;
+        color: hsl(0, 0%, 100%);
+        width: 240px;
+    }
+}
